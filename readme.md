@@ -24,6 +24,9 @@ Example of using defstyle macro that defines the style
  `(:div ,@(example-style))`) => (:div :class "generated-class-name")
 ```
 
+NOTE: Place `(output-style-tags)` on head of your root template to generate style-tags
+
+
 ## Available functions and macros
 * defstyle - macro that takes style definitions, returns generated class-name and puts style forms to global variable
 * purge - empties global variable
