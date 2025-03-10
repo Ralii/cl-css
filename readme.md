@@ -1,7 +1,7 @@
 # Css generation from common lisp
 Backend css library that uses defstyle macro to compile forms to style-tags.
 
-## motivation
+## Motivation
 I needed a css library for my upcoming Htmx project and wanted to avoid integrating in to JS ecosystem such as Tailwind or any other possibly deprecating DSL for CSS generation.
 
 ## State
