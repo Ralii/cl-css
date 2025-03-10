@@ -21,7 +21,7 @@ Example of using defstyle macro that defines the style
 
 ```
 (defun spinneret-ui-component ()
- `(:div ,@(example-style))`) => (:div :class "generatedc-lass-name")
+ `(:div ,@(example-style))`) => (:div :class "generated-class-name")
 ```
 
 ## Available functions and macros
