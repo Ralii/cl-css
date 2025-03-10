@@ -16,12 +16,12 @@ Example of using defstyle macro that defines the style
      :max-width '(768
                   '(:flex-direction :row :gap "10px"))
      :min-width '(1500
-                  '(:flex-direction :row :gap "15px")))) => (:class generated-class-name)
+                  '(:flex-direction :row :gap "15px")))) => (:class "generated-class-name")
 ```
 
 ```
 (defun spinneret-ui-component ()
- `(:div ,@(example-style))`)
+ `(:div ,@(example-style))`) => (:div :class "generatedc-lass-name")
 ```
 
 ## Available functions and macros
