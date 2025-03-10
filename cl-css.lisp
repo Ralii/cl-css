@@ -45,10 +45,3 @@
     (setf (gethash class-name style-map) all-css)
     `(defvar ,name
        '(:class ,class-name))))
-
-(defstyle example-style
-    (:display :flex :flex-direction :column :gap "5px"
-     :max-width '(768
-                  '(:flex-direction :row :gap "10px"))
-     :min-width '(1500
-                  '(:flex-direction :row :gap "15px"))))
